@@ -1,0 +1,23 @@
+{
+  "name": "ScrimBot",
+  "env": {
+    "TOKEN": {
+      "description": "Discord Bot Token (https://discord.com/developers/applications)"
+    },
+    "TIME_ZONE": {
+      "description": "Desired time zone (https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)",
+      "required": false
+    },
+    "PREFIX": {
+      "description": "Desired bot prefix",
+      "required": false
+    },
+    "MONGO_URI": {
+      "description": "MongoDB connection string (https://www.mongodb.com/cloud/atlas)"
+    },
+    "DOMAIN": {
+      "description": "Heroku domain (to keep bot alive when using free dynos)",
+      "required": false
+    }
+  }
+}
